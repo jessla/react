@@ -31,9 +31,7 @@ class Errors extends Component {
 
     // ERRORS
     notAFunctionError() {
-        var obj = {
-          validFunction: function () {}
-        };
+        var obj = {};
         obj.invalidFunction();
     }
 
